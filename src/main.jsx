@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Credits from './components/Credits/Credits.jsx';
 import Projects from './components/Projects/Projects.jsx';
-import Root from './routes/root.jsx';
+import Root from './components/Root/Root.jsx';
 import Error from './Error.jsx';
 import Welcome from './components/Welcome/Welcome.jsx';
 import NavMenu from './components/NavMenu/NavMenu.jsx';
@@ -16,7 +16,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <NavMenu />,
+    element: <Root />,
     errorElement: <Error />,
     children: [
 

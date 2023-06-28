@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    
+}
+
+li{
+    padding:10px;
+  
+
+    
+}
+
+a{
+    text-decoration:none;
+    padding:10px;
+    font-size:x-large;
+    &:hover{
+        background-color:pink;
+      }
+    
+   
+}
+
+button{
+    background-color:blue;
+}
+
+#detail{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+}

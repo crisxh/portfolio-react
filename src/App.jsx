@@ -1,5 +1,5 @@
 
-import './App.css'
+import './App.scss'
 import Welcome from './components/Welcome/Welcome'
 import MenuAppBar from './components/NavMenu/NavMenu'
 import Projects from './components/Projects/Projects'

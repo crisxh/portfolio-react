@@ -1,4 +1,5 @@
-import { Outlet } from "react-router-dom"
+
+import "./NavMenu.scss"
 export default function NavMenu() {
     return (
         <>
@@ -7,23 +8,23 @@ export default function NavMenu() {
                 <nav>
                     <ul>
                         <li>
-                            <a href={`/home`}>home</a>
+                            <a href={`/home`}>Home</a>
                         </li>
                         <li>
-                            <a href={`/credits`}>credits</a>
+                            <a href={`/credits`}>Credits</a>
                         </li>
                         <li>
-                            <a href={`/projects`}>projects</a>
+                            <a href={`/projects`}>Projects</a>
                         </li>
                         <li>
                             <a href={`/about`}>About</a>
                         </li>
                     </ul>
+
                 </nav>
             </div>
-            <div id="detail">
-                <Outlet />
-            </div>
+
+
         </>
     );
 }
