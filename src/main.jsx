@@ -15,7 +15,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "https://mellifluous-kataifi-c69723.netlify.app/",
     element: <Root />,
     errorElement: <Error />,
     children: [
