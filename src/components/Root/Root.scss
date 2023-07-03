@@ -1,0 +1,13 @@
+#main{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+    margin:0px;
+    padding:0px;
+  }
+  
+  #detail{
+    display:flex;
+    align-items: center;
+    height:100vh;
+    margin-left:100px;
+  }

@@ -1,5 +1,6 @@
 import NavMenu from "../NavMenu/NavMenu"
 import { Outlet } from "react-router-dom"
+import './Root.scss'
 
 
 

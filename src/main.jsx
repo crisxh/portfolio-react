@@ -7,6 +7,7 @@ import Root from './components/Root/Root.jsx';
 import Error from './Error.jsx';
 import Welcome from './components/Welcome/Welcome.jsx';
 import NavMenu from './components/NavMenu/NavMenu.jsx';
+import About from './components/About/About.jsx';
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "home",
         element: <Welcome />
+      },
+      {
+        path: "about",
+        element: <About />
       }
     ]
   }
