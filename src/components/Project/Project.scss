@@ -1,6 +1,7 @@
 .projectContainer{
     display:flex;
     flex-direction:column;
-    width:300px;
+    width:50%;
     border:5px solid blue;
+    justify-content:center;
 }
