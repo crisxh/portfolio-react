@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Projects.scss';
 import Project from '../Project/Project';
 
 const projectList = [
@@ -52,11 +52,29 @@ const projectList = [
         url: "https://crisxh.github.io/credit-card-entry",
         tags: ['front-end', 'design', 'frontend-mentor-io']
     },
+    {
+        name: "Google Frontend Clone",
+        image: 'https://via.placeholder.com/150?text=Credit Card',
+        url: "https://crisxh.github.io/credit-card-entry",
+        tags: ['front-end', 'design', 'frontend-mentor-io']
+    },
+    {
+        name: "Credit Card Entry Front End",
+        image: 'https://via.placeholder.com/150?text=Credit Card',
+        url: "https://crisxh.github.io/credit-card-entry",
+        tags: ['front-end', 'design', 'frontend-mentor-io']
+    },
+    {
+        name: "Credit Card Entry Front End",
+        image: 'https://via.placeholder.com/150?text=Credit Card',
+        url: "https://crisxh.github.io/credit-card-entry",
+        tags: ['front-end', 'design', 'frontend-mentor-io']
+    },
 ]
 
 const ProjectMap = projectList.map((project, index) => {
     return (
-        <Project title={project.name} url={project.url} key={index} />
+        <Project title={project.name} url={project.url} image={project.image} description={project.description} key={index} />
     )
 })
 
