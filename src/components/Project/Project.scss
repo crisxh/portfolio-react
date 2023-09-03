@@ -6,13 +6,16 @@
     justify-content:center;
     align-items: center;
     border-radius:1em;
-   padding:1em;
+   padding:.5em;
     background-color:white;
     a{
        font-size:medium;
     }
 
-
+a img{
+    height: auto;
+    width: 100%;
+}
     
 }
 
