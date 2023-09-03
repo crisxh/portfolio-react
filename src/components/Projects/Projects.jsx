@@ -6,6 +6,7 @@ import Magic8BallImg from '../../assets/projectImages/Magic8Ball.png'
 import MarkdownImg from '../../assets/projectImages/Markdown Previewer.png';
 import PomodoroImg from '../../assets/projectImages/Pomodoro.png';
 import RandomQuoteImg from '../../assets/projectImages/RandomQuote.png';
+import GoogleImg from '../../assets/projectImages/GoogleImg.png'
 
 
 
@@ -18,8 +19,8 @@ const projectList = [
     },
     {
         name: "Google Frontend Clone",
-        image: 'https://via.placeholder.com/150?text=Credit Card',
-        url: "https://codepen.io/crisxh/full/PoRjNKQ",
+        image: GoogleImg,
+        url: "https://singular-salamander-3175e6.netlify.app/",
         tags: ['design']
     },
     {
@@ -28,12 +29,7 @@ const projectList = [
         url: `https://crisxh.github.io/chat_with_yourself/`,
         tags: []
     },
-    {
-        name: 'checkers',
-        image: CheckersImg,
-        url: 'https://crisxh.github.io/checkers',
-        tags: ['game',]
-    },
+
     {
         name: 'Markdown Previewer',
         image: MarkdownImg,
@@ -59,6 +55,12 @@ const projectList = [
         tags: ['game',]
 
     },
+    {
+        name: 'checkers',
+        image: CheckersImg,
+        url: 'https://crisxh.github.io/checkers',
+        tags: ['game',]
+    },
 
 
 
@@ -75,20 +77,7 @@ const projectList = [
         image: 'https://via.placeholder.com/150?text=Credit Card',
         url: "https://crisxh.github.io/credit-card-entry",
         tags: ['front-end', 'design', 'frontend-mentor-io']
-    },
-
-    {
-        name: "Credit Card Entry Front End",
-        image: 'https://via.placeholder.com/150?text=Credit Card',
-        url: "https://crisxh.github.io/credit-card-entry",
-        tags: ['front-end', 'design', 'frontend-mentor-io']
-    },
-    {
-        name: "Credit Card Entry Front End",
-        image: 'https://via.placeholder.com/150?text=Credit Card',
-        url: "https://crisxh.github.io/credit-card-entry",
-        tags: ['front-end', 'design', 'frontend-mentor-io']
-    },
+    }
 ]
 
 const ProjectMap = projectList.map((project, index) => {
