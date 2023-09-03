@@ -4,3 +4,14 @@ body{
     margin-top:20px;
     margin-bottom:20px;
 }
+
+#Welcome{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url('../../assets/pexels-miguel-á-padriñán-255379.jpg');
+    background-size:cover;
+    height:100%;
+    width:100%;
+}

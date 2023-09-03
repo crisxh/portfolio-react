@@ -1,8 +1,9 @@
+import './Credits.scss'
 function Credits() {
     return (
-        <div>
+        <div className="creditsContainer">
             credits
-            Background Image by <a href="https://www.freepik.com/free-vector/geometric-background-concept_8398866.htm#query=shapes%20background&position=1&from_view=keyword&track=ais#position=1&query=shapes%20background">Freepik</a>
+            Photo by Miguel Á. Padriñán: https://www.pexels.com/photo/defocused-image-of-lights-255379/
         </div>
     )
 }

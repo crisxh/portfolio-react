@@ -55,8 +55,8 @@ const projectList = [
     {
         name: "Google Frontend Clone",
         image: 'https://via.placeholder.com/150?text=Credit Card',
-        url: "https://crisxh.github.io/credit-card-entry",
-        tags: ['front-end', 'design', 'frontend-mentor-io']
+        url: "https://codepen.io/crisxh/full/PoRjNKQ",
+        tags: ['design']
     },
     {
         name: "Credit Card Entry Front End",
